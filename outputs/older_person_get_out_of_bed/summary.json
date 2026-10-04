@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "observation_duration_sec": 21.0,
+    "activity_duration_sec": {
+      "lying_in_bed": 17.0,
+      "sitting_on_bed": 4.0,
+      "sitting_outside_bed": 0.0,
+      "standing": 0.0,
+      "walking": 0.0,
+      "lying_outside_bed": 0.0,
+      "out_of_bed": 0.0,
+      "unknown": 0.0
+    },
+    "bed_exit_count": 0,
+    "bed_return_count": 0,
+    "total_in_bed_sec": 21.0,
+    "total_out_of_bed_sec": 0.0,
+    "longest_out_of_bed_period_sec": 0,
+    "final_state": "sitting_on_bed",
+    "overall_decision": "NORMAL",
+    "decision_reasons": [
+      "Lying, sitting, standing, or walking normally; no safety rule triggered."
+    ]
+  },
+  "readable": {
+    "total_observation_time": "21s",
+    "activity_summary": {
+      "lying_in_bed": "17s",
+      "sitting_on_bed": "4s",
+      "sitting_outside_bed": "0s",
+      "standing": "0s",
+      "walking": "0s",
+      "lying_outside_bed": "0s",
+      "out_of_bed": "0s",
+      "unknown": "0s"
+    },
+    "bed_summary": {
+      "time_in_bed": "21s",
+      "time_out_of_bed": "0s",
+      "bed_exit_count": 0,
+      "bed_return_count": 0
+    }
+  }
+}

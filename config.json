@@ -1,0 +1,21 @@
+{
+  "sample_fps": 5,
+  "pose_model": "models/yolo26n-pose.pt",
+  "detection_confidence": 0.25,
+  "keypoint_confidence": 0.3,
+  "lying_angle": 55,
+  "lying_box_aspect": 1.15,
+  "sitting_knee_angle": 135,
+  "walking_speed": 0.18,
+  "low_light_brightness": 60,
+  "weak_evidence_quality": 0.45,
+  "minimum_segment_sec": 1.5,
+  "exit_confirm_sec": 3,
+  "return_confirm_sec": 5,
+  "unknown_monitor_sec": 30,
+  "sitting_monitor_sec": 120,
+  "out_of_bed_alert_sec": 300,
+  "out_of_view_alert_sec": 180,
+  "lying_outside_alert_sec": 10,
+  "agent_context_sec": 10
+}

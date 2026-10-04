@@ -1,0 +1,63 @@
+{
+  "video": "older_person_get_out_of_bed",
+  "activity": {
+    "accuracy": 0.9523809523809523,
+    "macro_f1": 0.9292929292929293,
+    "labels": [
+      "LYING_IN_BED",
+      "SITTING_ON_BED"
+    ],
+    "confusion_matrix": [
+      [
+        16,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "top_confusions": [
+      {
+        "actual": "SITTING_ON_BED",
+        "predicted": "LYING_IN_BED",
+        "seconds": 1
+      }
+    ]
+  },
+  "events": {
+    "bed_exit": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "mean_time_error_sec": null
+    },
+    "bed_return": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "mean_time_error_sec": null
+    }
+  },
+  "durations": {
+    "per_state": [
+      {
+        "state": "LYING_IN_BED",
+        "ground_truth_sec": 16.5,
+        "predicted_sec": 17.0,
+        "error_sec": 0.5
+      },
+      {
+        "state": "SITTING_ON_BED",
+        "ground_truth_sec": 4.5,
+        "predicted_sec": 4.0,
+        "error_sec": 0.5
+      }
+    ],
+    "mean_error_sec": 0.5
+  }
+}
